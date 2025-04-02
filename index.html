@@ -3,27 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>alibaixiu</title>
+    <title>xsweb</title>
     <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+	<link href="css/index.css" rel="stylesheet">
     <style>
-		
+        
     </style>
-	
 </head>
 
 <body>
-	<div class="container">
-		<div class="row">
-		    <div class="col-3">1</div>
-		    <div class="col-3">2</div>
-		    <div class="col-3 d-none d-md-block">3disapear!</div> <!-- 在中等屏幕及以上显示 -->
-		    <div class="col-3">4</div>
-		</div>
-		
-	</div>
-	<!-- 引入Bootstrap JS及其依赖 -->
-	<script src="https://cdn.bootcdn.net/ajax/libs/popper.js/2.11.8/umd/popper.min.js"></script>
-	<script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.min.js"></script>
+    <div class="container">
+        <div class="row">
+            <header class="col-md-2">
+                <div class="logo">
+                    <a href="#">
+                        <img src="img/head.png" alt="" class="img-fluid">
+                    </a>
+                </div>
+				<div class="nav">
+					<ul>
+						<li><a href="#" class="bi bi-camera-fill">生活馆</a></li>
+						<li><a href="#" class="bi bi-sun-fill">自然汇</a></li>
+						<li><a href="#" class="bi bi-truck-front-fill">奇趣事</a></li>
+						<li><a href="#" class="bi bi-airplane-fill">科技潮</a></li>
+						<li><a href="#" class="bi bi-basket-fill">美食杰</a></li>
+					</ul>
+				</div>
+            </header>
+            <article class="col-md-7">
+				<!--新闻-->
+				<div class="news">
+					<ul>
+						<li>
+							<a href="#">
+								<img src="img/head.png" alt="">
+								<p>xsweb</p>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/sea.png" alt="">
+								<p>这是在船上拍的照片</p>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/Cody.png" alt="">
+								<p>这是雪地蝴蝶</p>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/food.png" alt="">
+								<p>这是超级美味的一餐</p>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/happyworld.png" alt="">
+								<p>这是黄子弘凡的演唱会</p>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<!--发表-->
+				<div class="public"></div>
+			</article>
+            <aside class="col-md-3">右侧</aside>
+        </div>
+    </div>
+	
+    <!-- 引入Bootstrap JS及其依赖 -->
+    <script src="https://cdn.bootcdn.net/ajax/libs/popper.js/2.11.8/umd/popper.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.min.js"></script>
 </body>
-
 </html>
